@@ -224,3 +224,9 @@ Based on [the work of Thomas Sarlandie](https://github.com/sarfata/voodooprivacy
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/)   
 This work is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/)  
 Attribution required: please include my name in any derivative and let me know how you have improved it!
+
+# CNSA/RFC 6379 Suite B (https://wiki.strongswan.org/projects/strongswan/wiki/IKEv2CipherSuites)
+  #ike=aes256gcm16-prfsha384-ecp384!
+  #esp=aes256gcm16-ecp384!
+  ike=aes256-sha2_384-prfsha384-ecp384,aes256gcm16-prfsha384-ecp384!
+  esp=aes256gcm16-ecp384!
